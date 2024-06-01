@@ -1,6 +1,7 @@
 # Password Generator
 
 This command-line tool generates random passwords with customizable length and complexity.
+The modules and packages used are in-built python packages, so no extra installations are required.
 
 ## Technologies Used
 
