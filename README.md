@@ -36,7 +36,7 @@ python password_generator.py -l 30 --no-upper --no-special
 
 ### For more information and advanced usage, refer to the command-line help:
 
-python3 password_generator.py --help
+python password_generator.py --help
 
 
 ## NOTE: python3 can be used instead of python, -l is lowercase 'L'
