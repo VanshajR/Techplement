@@ -17,7 +17,7 @@ def generate_password(length=15, include_upper=True, include_lower=True, include
     return password
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate random passwords.')
+    parser = argparse.ArgumentParser(description='''This program was made by Vanshaj Raghuvanshi. Use it to generate random passwords.''')
     parser.add_argument('-l', '--length', type=int, default=20, help='Length of the password')
     parser.add_argument('--no-upper', action='store_false', dest='upper', help='Exclude uppercase letters')
     parser.add_argument('--no-lower', action='store_false', dest='lower', help='Exclude lowercase letters')
