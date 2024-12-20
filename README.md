@@ -15,7 +15,9 @@ To use the password generator, run the `password_generator.py` script with the d
 
 ### Command Syntax
 
+```bash
 python password_generator.py [options]
+```
 
 ### Options
 
@@ -33,11 +35,14 @@ python password_generator.py
 
 ### Generate a password with a length of 30 characters, excluding uppercase letters and special characters:
 
+```bash
 python password_generator.py -l 30 --no-upper --no-special
+```
 
 ### For more information and advanced usage, refer to the command-line help:
 
+```bash
 python password_generator.py --help
+```
 
-
-## NOTE: python3 can be used instead of python, -l is lowercase 'L'
+### NOTE: python3 can be used instead of python, -l is lowercase 'L'
